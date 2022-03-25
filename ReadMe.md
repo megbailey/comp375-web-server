@@ -4,5 +4,5 @@ A simple multi-threaded web server, Toreroserve, for USD COMP 375 Networking cla
 ## Steps to run
 1. Install boost - on Macos ```brew install boost```
 2. ```make```
-3. ```./toreroserve```
+3. ```./toreroserve 8080 WWW```
 4. Connect at localhost:8080 and browse filesystem
