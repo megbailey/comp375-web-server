@@ -20,6 +20,4 @@ class BoundedBuffer {
 	  std::mutex thread_mutex;
 	  std::condition_variable data_available;
 	  std::condition_variable space_available;	
-	  // This class doesn't have any, but we could also have private
-	  // constructors and/or member functions here.
 };
